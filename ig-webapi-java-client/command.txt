@@ -1,0 +1,7 @@
+mvn install:install-file ^
+   -Dfile=ig-webapi-java-client-2.2.0-SNAPSHOT.jar ^
+   -DgroupId=com.iggroup.webapi ^
+   -DartifactId=ig-webapi-java-client ^
+   -Dversion=2.2.0-SNAPSHOT ^
+   -Dpackaging=jar ^
+   -DgeneratePom=true
